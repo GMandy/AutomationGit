@@ -1,0 +1,25 @@
+{
+  "name": "testaotumation",
+  "version": "1.0.0",
+  "description": "aotumation study",
+  "main": "Test.js",
+  "scripts": {
+    "dev": "wdio wdio.dev.conf.js",
+    "test": "wdio wdio.test.conf.js",
+    "jenkins": "wdio wdio.conf.js"
+  },
+  "author": "GRM",
+  "license": "ISC",
+  "devDependencies": {
+    "cucumber": "3.1.0",
+    "mkdirp": "0.5.1",
+    "should": "13.1.0",
+    "wdio-cucumber-framework": "^1.0.2",
+    "wdio-junit-reporter": "0.3.1",
+    "wdio-junit-to-html": "3.1.2",
+    "wdio-sauce-service": "^0.4.14",
+    "wdio-selenium-standalone-service": "0.0.9",
+    "wdio-spec-reporter": "0.1.2",
+    "webdriverio": "4.8.0"
+  }
+}
