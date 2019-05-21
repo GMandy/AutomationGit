@@ -7,7 +7,7 @@ const config = require('./wdio.conf').config;
  *
  */
 config.baseUrl = 'https://cms.andersons.com';
-config.specs = [ './test/features/user/product.feature'];
+config.specs = [ './test/features/user/loginOutline.feature'];
 
 /*
  * selenium config

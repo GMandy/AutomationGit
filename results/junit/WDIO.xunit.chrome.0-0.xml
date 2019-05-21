@@ -1,22 +1,2 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuites>
-  <testsuite name="add_a_item_to_shopping_cart" timestamp="2019-05-13T14:10:57" time="96.156" tests="0" failures="0" errors="0" skipped="0">
-    <properties>
-      <property name="specId" value="87ff322f666232c23cfe9291f0fe5b9a"/>
-      <property name="suiteName" value="add a item to shopping cart"/>
-      <property name="capabilities" value="chrome"/>
-      <property name="file" value=".\test\features\user\product.feature"/>
-    </properties>
-  </testsuite>
-  <testsuite name="open_a_product_page_and_add_to_cart" timestamp="2019-05-13T14:11:30" time="63.482" tests="3" failures="0" errors="0" skipped="0">
-    <properties>
-      <property name="specId" value="87ff322f666232c23cfe9291f0fe5b9a"/>
-      <property name="suiteName" value="open a product page and add to cart"/>
-      <property name="capabilities" value="chrome"/>
-      <property name="file" value=".\test\features\user\product.feature"/>
-    </properties>
-    <testcase classname="chrome.open_a_product_page_and_add_to_cart" name="i_opened_a_product_page" time="63.77"/>
-    <testcase classname="chrome.open_a_product_page_and_add_to_cart" name="i_select_options_and_click_add_to_cart_button" time="26.81"/>
-    <testcase classname="chrome.open_a_product_page_and_add_to_cart" name="the_product_is_added_to_shopping_cart" time="0.471"/>
-  </testsuite>
-</testsuites>
+<testsuites/>
